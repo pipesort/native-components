@@ -1,6 +1,6 @@
 {
   "name": "react-native-pipesort-bottomsheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modernised modal for mobile apps.",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-import BottomSheet from '../src/components/BottomSheet'
+import BottomSheet from './src/BottomSheet'
 
 
 export {BottomSheet}
