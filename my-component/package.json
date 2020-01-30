@@ -1,10 +1,13 @@
 {
   "name": "react-native-pipesort-bottomsheet",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A modernised modal for mobile apps.",
   "main": "index.js",
   "scripts": {
     "test": "yarn add react-native-pipesort-bottomsheet"
+  },
+  "dependencies": {
+    "react-native-raw-bottom-sheet": "^2.0.6"
   },
   "repository": {
     "type": "git",

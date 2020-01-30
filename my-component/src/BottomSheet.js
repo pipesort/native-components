@@ -4,7 +4,7 @@ import {
   View,
 } from 'react-native';
 import RBSheet from 'react-native-raw-bottom-sheet';
-import CardContent from '../screens/cardContent';
+import CardContent from '../../src/screens/cardContent';
 
 function BottomSheet() {
 const ref = useRef(null)
