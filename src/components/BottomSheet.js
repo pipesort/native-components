@@ -1,13 +1,8 @@
 import React,{useRef} from 'react';
 import {
-  SafeAreaView,
   Button,
   View,
-  FlatList,
-  StyleSheet,
-  Text,
 } from 'react-native';
-import Carousel from 'react-native-snap-carousel';
 import RBSheet from 'react-native-raw-bottom-sheet';
 import CardContent from '../screens/cardContent';
 
@@ -32,7 +27,6 @@ const ref = useRef(null)
             alignItems: 'center',
             borderTopLeftRadius:30,
             borderTopRightRadius:30,
-            // backgroundColor:'#3271a8'
           },
         }}>
         <CardContent />
