@@ -10,3 +10,9 @@ tmp
 
 # Examples (If applicable to your project)
 examples
+android
+ios
+__tests__
+assets
+my-component
+textInput

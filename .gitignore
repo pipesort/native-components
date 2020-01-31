@@ -9,9 +9,3 @@ dist
 
 # Dependency directory
 node_modules
-android
-ios
-__tests__
-assets
-my-component
-textInput
