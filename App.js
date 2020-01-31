@@ -13,6 +13,7 @@ import SignupForm from './src/components/forms/SignupForm';
 import {createStackNavigator} from '@react-navigation/stack';
 import Otp from './src/components/Otp';
 import LandingPage from './src/screens/landingPage';
+import TextInput from './src/components/TextInput'
 
 const Stack = createStackNavigator();
 
@@ -25,7 +26,7 @@ const App = () => {
         <Stack.Screen name="ColoredCards" component={ColoredCards} />
         <Stack.Screen name="PinterestCards" component={PinterestCards} />
         <Stack.Screen name="CardSlider" component={CardSlider} />
-       
+        <Stack.Screen name="TextInput" component={TextInput} />
        
         <Stack.Screen
           name="SignupForm"

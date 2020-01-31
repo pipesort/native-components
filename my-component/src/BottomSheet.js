@@ -2,9 +2,10 @@ import React,{useRef} from 'react';
 import {
   Button,
   View,
+  Text
 } from 'react-native';
 import RBSheet from 'react-native-raw-bottom-sheet';
-import CardContent from '../../src/screens/cardContent';
+
 
 function BottomSheet() {
 const ref = useRef(null)
@@ -29,7 +30,11 @@ const ref = useRef(null)
             borderTopRightRadius:30,
           },
         }}>
-        <CardContent />
+        <View>
+            <Text style={{fontSize:24}}>
+                Have a good day!
+            </Text>
+        </View>
       </RBSheet>
     </View>
   );

@@ -1,24 +1,39 @@
 {
-  "name": "react-native-pipesort-bottomsheet",
-  "version": "1.0.0",
-  "description": "A modernised modal for mobile apps.",
+  "name": "react-native-pipesort",
+  "version": "1.0.1",
+  "description": "A modernised UI kit for mobile apps.",
   "main": "index.js",
   "scripts": {
-    "test": "yarn add react-native-pipesort-bottomsheet"
+    "test": "yarn add react-native-pipesort"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pipesort/native-components.git"
   },
   "keywords": [
-    "modal",
-    "bottomsheet",
-    "alert"
+    "input",
+    "text-input"
   ],
   "author": "Pipesort Technologies",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pipesort/native-components/issues"
   },
-  "homepage": "https://github.com/pipesort/native-components#readme"
+  "homepage": "https://github.com/pipesort/native-components#readme",
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.5",
+    "@react-navigation/native": "^5.0.0-alpha.22",
+    "@react-navigation/stack": "^5.0.0-alpha.54",
+    "native-base": "^2.13.8",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-ratings": "^6.5.0",
+    "react-native-raw-bottom-sheet": "^2.0.6",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-screens": "^2.0.0-alpha.22",
+    "react-native-vector-icons": "^6.6.0"
+  }
+ 
 }

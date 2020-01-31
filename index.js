@@ -1,4 +1,4 @@
-import BottomSheet from './src/components/BottomSheet'
+import TextInput from './src/components/TextInput'
 
 
-export {BottomSheet}
+export {TextInput}
