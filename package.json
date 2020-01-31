@@ -1,10 +1,10 @@
 {
-  "name": "react-native-pipesort",
-  "version": "1.0.3",
+  "name": "react-native-pipesort-component",
+  "version": "1.0.5",
   "description": "A modernised UI kit for mobile apps.",
   "main": "index.js",
   "scripts": {
-    "test": "yarn add react-native-pipesort"
+    "test": "yarn add react-native-pipesort-component"
   },
   "repository": {
     "type": "git",

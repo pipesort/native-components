@@ -13,7 +13,7 @@ import SignupForm from './src/components/forms/SignupForm';
 import {createStackNavigator} from '@react-navigation/stack';
 import Otp from './src/components/Otp';
 import LandingPage from './src/screens/landingPage';
-import TextInput from './src/components/TextInput'
+import TextInput from './TextInput'
 
 const Stack = createStackNavigator();
 
